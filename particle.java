@@ -16,7 +16,7 @@ public class particle {
     }
     public double gravitationalAcceleration(Black_Hole bh) {
         double r = Math.sqrt((x * x) + (y * y));
-        double acceleration = (Black_Hole.G * bh.getMass() * Black_Hole.SOLAR_MASS) / (r * r);
+        double acceleration = -(Black_Hole.G * bh.getMass() * Black_Hole.SOLAR_MASS) / (r * r);
         return acceleration;
     }
     public void updateAcceleration(Black_Hole bh) {
