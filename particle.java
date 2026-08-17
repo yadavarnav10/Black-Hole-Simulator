@@ -28,8 +28,8 @@ public class particle {
        double old_ax = ax;
        double old_ay = ay;
        // Update position using current velocity and acceleration
-         x += vx * dt + 0.5 * old_ax * dt * dt;
-         y += vy * dt + 0.5 * old_ay * dt * dt;
+         x += vx * dt + 0.5 * old_ax * dt * dt;// x=x + vx * dt + 0.5 * old_ax * dt * dt
+         y += vy * dt + 0.5 * old_ay * dt * dt;// y=y + vy*dt + 0.5*old_ax*dt*dt
        // Update acceleration based on new position
        updateAcceleration(bh);
          // Update velocity using average of old and new acceleration
