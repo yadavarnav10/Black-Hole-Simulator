@@ -1,0 +1,162 @@
+.root-pane {
+    -fx-background-color: #070b14;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.label {
+    -fx-text-fill: #e9f1ff;
+}
+
+.heading {
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: 1px;
+}
+
+.muted {
+    -fx-text-fill: #8ca1c2;
+    -fx-font-size: 12px;
+}
+
+.badge {
+    -fx-background-color: #17263c;
+    -fx-border-color: #2d8cc7;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-padding: 6px 10px;
+    -fx-font-size: 10px;
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-text-fill: #8cddff;
+}
+
+.visual-column {
+    -fx-min-width: 500px;
+}
+
+.visual-header {
+    -fx-padding: 0 2px;
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d9e9ff;
+}
+
+.viewport-status {
+    -fx-text-fill: #73cffa;
+    -fx-font-size: 10px;
+    -fx-font-weight: normal;
+}
+
+.visual-frame {
+    -fx-background-color: #050914;
+    -fx-background-radius: 10px;
+    -fx-border-color: #263a56;
+    -fx-border-radius: 10px;
+    -fx-padding: 1px;
+}
+
+.legend {
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 10px;
+    -fx-text-fill: #8195b5;
+}
+
+.control-scroll {
+    -fx-background: #0f1726;
+    -fx-background-color: #0f1726;
+    -fx-border-color: #283a55;
+    -fx-border-radius: 9px;
+    -fx-background-radius: 9px;
+}
+
+.control-scroll > .viewport {
+    -fx-background-color: #0f1726;
+}
+
+.control-pane {
+    -fx-background-color: #0f1726;
+    -fx-padding: 18px;
+}
+
+.panel-title {
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f3f7ff;
+}
+
+.control-label, .field-label {
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 10px;
+    -fx-text-fill: #9db0cf;
+}
+
+.section-title {
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #51bde9;
+    -fx-padding: 11px 0 4px 0;
+}
+
+.text-field, .combo-box, .text-area {
+    -fx-background-color: #162238;
+    -fx-text-fill: #eef5ff;
+    -fx-prompt-text-fill: #677d9f;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-border-color: #2b4264;
+}
+
+.text-field {
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 11px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #162238;
+    -fx-text-fill: #eef5ff;
+    -fx-font-size: 11px;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #162238;
+}
+
+.text-area {
+    -fx-font-family: "Cascadia Mono", Consolas, monospace;
+    -fx-font-size: 10px;
+}
+
+.text-area .content {
+    -fx-background-color: #111d31;
+}
+
+.separator *.line {
+    -fx-border-color: #273a58;
+}
+
+.button {
+    -fx-background-radius: 5px;
+    -fx-padding: 8px 12px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.primary-button {
+    -fx-background-color: #1999cb;
+    -fx-text-fill: white;
+}
+
+.primary-button:hover {
+    -fx-background-color: #27b5e7;
+}
+
+.secondary-button {
+    -fx-background-color: #202f48;
+    -fx-text-fill: #d9e8ff;
+    -fx-border-color: #395274;
+    -fx-border-radius: 5px;
+}
